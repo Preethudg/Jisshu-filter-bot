@@ -25,15 +25,15 @@ MOVIE_GROUP_LINK = environ.get('MOVIE_GROUP_LINK', 'https://t.me/Sanju_Developer
 CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002167205597').split()]
 #---------------------------------------------------------------
 #---------------------------------------------------------------
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://MovieHub:MovieHub@moviehub.wc2kpzb.mongodb.net/?retryWrites=true&w=majority")
-DATABASE_NAME = environ.get('DATABASE_NAME', "MovieHub")
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://sanjanadg:preethu@cluster0.jc0le.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+DATABASE_NAME = environ.get('DATABASE_NAME', "sanjanadg")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Hub_Files')
 #---------------------------------------------------------------
 #---------------------------------------------------------------
 #----------- There will be channel id add in all these ---------
-LOG_API_CHANNEL = int(environ.get('LOG_API_CHANNEL', '-1002019824318'))  # set shortner log channel
-DELETE_CHANNELS = int(environ.get('DELETE_CHANNELS','0')) # The movie you upload in it will be deleted from the bot.
-LOG_VR_CHANNEL = int(environ.get('LOG_VR_CHANNEL', '-1002019824318'))
+LOG_API_CHANNEL = int(environ.get('LOG_API_CHANNEL', '-1002315762201'))  # set shortner log channel
+DELETE_CHANNELS = int(environ.get('DELETE_CHANNELS','-1002434743923')) # The movie you upload in it will be deleted from the bot.
+LOG_VR_CHANNEL = int(environ.get('LOG_VR_CHANNEL', '-1002302551197'))
 auth_channel = environ.get('AUTH_CHANNEL', '-1001999281293')
 SUPPORT_GROUP = int(environ.get('SUPPORT_GROUP', '-1002142077714'))
 request_channel = environ.get('REQUEST_CHANNEL', '-1002019824318') # If anyone sends a request message to your bot, you will get it in this channel.
