@@ -38,21 +38,21 @@ auth_channel = environ.get('AUTH_CHANNEL', '-1002487309952')
 SUPPORT_GROUP = int(environ.get('SUPPORT_GROUP', '-1002490084393'))
 request_channel = environ.get('REQUEST_CHANNEL', '-1002281729818') # If anyone sends a request message to your bot, you will get it in this channel.
 MOVIE_UPDATE_CHANNEL = int(environ.get('MOVIE_UPDATE_CHANNEL', '-1002452855325')) # 
-SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/M_HRequest') #Support group link ( make sure bot is admin )
+SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/any_support_01') #Support group link ( make sure bot is admin )
 #---------------------------------------------------------------
 #---------------------------------------------------------------
 IS_VERIFY = is_enabled('IS_VERIFY', False)
 #---------------------------------------------------------------
-TUTORIAL = environ.get("TUTORIAL", "https://t.me/c/1999281293/824")
-TUTORIAL_2 = environ.get("TUTORIAL_2", "https://t.me/c/1999281293/824")
-TUTORIAL_3 = environ.get("TUTORIAL_3", "https://t.me/c/1999281293/824")
+TUTORIAL = environ.get("TUTORIAL", "https://t.me/+y-d-YdGnh7MzNTU1")
+TUTORIAL_2 = environ.get("TUTORIAL_2", "https://t.me/+y-d-YdGnh7MzNTU1")
+TUTORIAL_3 = environ.get("TUTORIAL_3", "https://t.me/+y-d-YdGnh7MzNTU1")
 VERIFY_IMG = environ.get("VERIFY_IMG", "https://graph.org/file/1669ab9af68eaa62c3ca4.jpg")
-SHORTENER_API = environ.get("SHORTENER_API", "3097623f852197a9ce40d1212aaa8bbf2803e799")
-SHORTENER_WEBSITE = environ.get("SHORTENER_WEBSITE", 'omegalinks.in')
-SHORTENER_API2 = environ.get("SHORTENER_API2", "3097623f852197a9ce40d1212aaa8bbf2803e799")
-SHORTENER_WEBSITE2 = environ.get("SHORTENER_WEBSITE2", 'omegalinks.in')
-SHORTENER_API3 = environ.get("SHORTENER_API3", "3097623f852197a9ce40d1212aaa8bbf2803e799")
-SHORTENER_WEBSITE3 = environ.get("SHORTENER_WEBSITE3", 'omegalinks.in')
+SHORTENER_API = environ.get("SHORTENER_API", "5d2cccf0bfdf0b16384bf4ee01a04288c67faa19")
+SHORTENER_WEBSITE = environ.get("SHORTENER_WEBSITE", 'tnlinks.in')
+SHORTENER_API2 = environ.get("SHORTENER_API2", "5d2cccf0bfdf0b16384bf4ee01a04288c67faa19")
+SHORTENER_WEBSITE2 = environ.get("SHORTENER_WEBSITE2", 'tnlinks.in')
+SHORTENER_API3 = environ.get("SHORTENER_API3", "5d2cccf0bfdf0b16384bf4ee01a04288c67faa19")
+SHORTENER_WEBSITE3 = environ.get("SHORTENER_WEBSITE3", 'tnlinks.in')
 TWO_VERIFY_GAP = int(environ.get('TWO_VERIFY_GAP', "43200"))
 THREE_VERIFY_GAP = int(environ.get('THREE_VERIFY_GAP', "43200"))
 #---------------------------------------------------------------
@@ -69,7 +69,7 @@ REQUEST_CHANNEL = int(request_channel) if request_channel and id_pattern.search(
 #---------------------------------------------------------------
 #---------------------------------------------------------------
 #---------------------------------------------------------------
-START_IMG = (environ.get('START_IMG', 'https://envs.sh/gR8.jpg')).split()
+START_IMG = (environ.get('START_IMG', 'https://graph.org/file/ccf3cbc4687263ac63420.jpg')).split()
 FORCESUB_IMG = environ.get('FORCESUB_IMG', 'https://i.ibb.co/ZNC1Hnb/ad3f2c88a8f2.jpg')
 REFER_PICS = (environ.get("REFER_PICS", "https://envs.sh/PSI.jpg")).split() 
 PAYPICS = (environ.get('PAYPICS', 'https://envs.sh/gR8.jpg')).split()
@@ -86,7 +86,7 @@ PORT = environ.get('PORT', '5000')
 MAX_BTN = int(environ.get('MAX_BTN', '8'))
 AUTO_DELETE = is_enabled('AUTO_DELETE', True)
 DELETE_TIME = int(environ.get('DELETE_TIME', 1200))
-IMDB = is_enabled('IMDB', False)
+IMDB = is_enabled('IMDB', True)
 FILE_CAPTION = environ.get('FILE_CAPTION', f'{script.FILE_CAPTION}')
 IMDB_TEMPLATE = environ.get('IMDB_TEMPLATE', f'{script.IMDB_TEMPLATE_TXT}')
 LONG_IMDB_DESCRIPTION = is_enabled('LONG_IMDB_DESCRIPTION', False)
